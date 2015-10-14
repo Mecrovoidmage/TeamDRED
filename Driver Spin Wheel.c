@@ -9,8 +9,8 @@ task main()
 	bool oldSpinState=true;
 	bool SpinState=false;
 	int speed;
-	const int lowSpeed=64;
-	const int highSpeed=127;
+	const int lowSpeed=63;
+	const int highSpeed=126;
 	repeat(forever)
 	{
 		if(vexRT[Btn5D]==1 || SensorValue(SpeedBump)==true)
